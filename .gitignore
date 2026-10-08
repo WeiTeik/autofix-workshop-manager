@@ -1,0 +1,47 @@
+# Dependencies and generated output
+node_modules/
+.next/
+dist/
+*.tsbuildinfo
+coverage/
+test-results/
+playwright-report/
+
+# Local configuration and credentials
+.env*
+.npmrc
+.netrc
+.pypirc
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_ed25519
+
+# Local databases, journals and database backups
+*.sqlite*
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+*.db.bak
+*.db.backup
+
+# Logs and operating-system / Office temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*
+
+# Coding-assistant instructions and original reference files
+AGENTS.md
+Test on Scenario Problem.pdf
+Parts Sample.xlsx
+transactions sample (last 30 days usage).xlsx
